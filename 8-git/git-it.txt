@@ -2,13 +2,19 @@
 # Type your answers on a new line.
 
 # Type the command for creating a new local git repository in the current directory
+git init
 
 # Type the command for adding all files to the staging area
+git add .
 
 # Type the command for committing all staged files with a message that says "I have made some updates"
+git commit -m "I have made some updates"
 
 # Type the command to add a new remote to this repo with the name 'origin' pointing to the URL 'https://github.com/PrimeAcademy/my-new-repo.git'
+git remote add origin https://github.com/PrimeAcademy/my-new-repo.git
 
 # Type the command for pushing all commits stored locally to the remote repo nicknamed origin
+git push origin master
 
 # Type the command to remove a file from the staging area
+git reset HEAD <file>
